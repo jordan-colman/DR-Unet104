@@ -7,3 +7,5 @@ This network was evaluated as part of the Multimodal Brain Tumor Segmentation (B
 http://braintumorsegmentation.org/
 
 Find trained model weights trained on the BraTS 2020 training data here: https://drive.google.com/file/d/1v8b5dPEa9nTVVkzjdjX6exZo4anlOhTH/view?usp=sharing 
+
+If using this network for your own research please cite our research, pre-print avalible at: https://www.researchgate.net/publication/344977944_DR-Unet104_for_Multimodal_MRI_brain_tumor_segmentation
