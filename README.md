@@ -1,11 +1,15 @@
 # DR-Unet104
 Deep residual Unet with 104 convolutional layers 
 
-DR-Unet104 is based on the Unet and uses deep residual blocks
+DR-Unet104 is based on the Unet and uses deep residual bottleneck blocks
+
 
 This network was evaluated as part of the Multimodal Brain Tumor Segmentation (BraTS) 2020 challenge
 http://braintumorsegmentation.org/
 
 Find trained model weights trained on the BraTS 2020 training data here: https://drive.google.com/file/d/1v8b5dPEa9nTVVkzjdjX6exZo4anlOhTH/view?usp=sharing 
 
-If using this network for your own research please cite our research, pre-print avalible at: https://www.researchgate.net/publication/344977944_DR-Unet104_for_Multimodal_MRI_brain_tumor_segmentation
+You are able to use this network for your own research if you cite our research:
+'DR-Unet104 for Multimodal MRI brain tumor segmentation', Jordan Colman, Lei Zhang, Wenting Duan and Xujiong Ye (2020), arxiv 2011.02840
+
+ pre-print avalible at: https://arxiv.org/abs/2011.02840
