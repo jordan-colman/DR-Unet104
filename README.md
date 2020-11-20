@@ -4,7 +4,7 @@ Deep residual Unet with 104 convolutional layers
 DR-Unet104 is based on the Unet and uses deep residual bottleneck blocks.
 The network takes 2D png input and outputs a pixel wise semantic segmentation. Code is aditionally included to normalise and convert nifti (.nii) format MRI images to seperate 2D png slices (convert_nii_to_png.py) and then convert the network output segmentations to 3D .nii files (convert_png_mask_to_nii.py). 
 
-The U-net based encoder-decoder design can be seen below. Multiple stacks of bottleneck blocks, taken from ResNet, are used in the networks encoder. The blocks are stacked, 2, 3, 4, 5, or 14 times to give 104 convolutional layers in the whole network in total.
+The U-net based encoder-decoder design can be seen below. Multiple stacks of bottleneck blocks, taken from ResNet (https://keras.io/api/applications/resnet/), are used in the networks encoder. The blocks are stacked, 2, 3, 4, 5, or 14 times to give 104 convolutional layers in the whole network in total.
 
 ![alt text](https://user-images.githubusercontent.com/67955222/99743883-8486fa00-2ace-11eb-990c-316873ff32cd.png)
 
