@@ -2,6 +2,12 @@
 Deep residual Unet with 104 convolutional layers 
 
 DR-Unet104 is based on the Unet and uses deep residual bottleneck blocks
+The U-net based encoder decoder design can be seen below. Multiple stacks of bottelneck blocks as used in the ResNet50 or ResNet101 are used in the networks encoder.
+
+![alt text](https://user-images.githubusercontent.com/67955222/99743883-8486fa00-2ace-11eb-990c-316873ff32cd.png)
+
+The bottelneck residual block and typical resnet block are further outlined below.
+
 
 
 This network was evaluated as part of the Multimodal Brain Tumor Segmentation (BraTS) 2020 challenge
