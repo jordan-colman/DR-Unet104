@@ -15,7 +15,7 @@ The bottleneck residual block and typical residual blocks are further outlined b
 
 This network was evaluated as part of the Multimodal Brain Tumor Segmentation (BraTS) 2020 challenge (http://braintumorsegmentation.org/) an example of the traning data can be seen below.
 
-
+![alt text](https://user-images.githubusercontent.com/67955222/99747410-5dcac280-2ad2-11eb-8431-6d79bf6b9d35.png)
 
 Find trained model weights trained on the BraTS 2020 training data here: https://drive.google.com/file/d/1v8b5dPEa9nTVVkzjdjX6exZo4anlOhTH/view?usp=sharing 
 
