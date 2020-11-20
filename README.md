@@ -20,6 +20,7 @@ This network was evaluated as part of the Multimodal Brain Tumor Segmentation (B
 Find trained model weights trained on the BraTS 2020 training data here: https://drive.google.com/file/d/1v8b5dPEa9nTVVkzjdjX6exZo4anlOhTH/view?usp=sharing 
 
 You are able to use this network for your own research if you cite our paper outlining the arcitecture:
+
 'DR-Unet104 for Multimodal MRI brain tumor segmentation', Jordan Colman, Lei Zhang, Wenting Duan and Xujiong Ye (2020), arxiv 2011.02840
 
  pre-print avalible at: https://arxiv.org/abs/2011.02840
