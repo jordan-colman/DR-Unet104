@@ -1,12 +1,12 @@
 # DR-Unet104
 Deep residual Unet with 104 convolutional layers 
 
-DR-Unet104 is based on the Unet and uses deep residual bottleneck blocks
-The U-net based encoder decoder design can be seen below. Multiple stacks of bottleneck blocks as used in the ResNet50 or ResNet101 are used in the networks encoder.
+DR-Unet104 is based on the Unet and uses deep residual bottleneck blocks.
+The U-net based encoder decoder design can be seen below. Multiple stacks of bottleneck blocks, as used in the ResNet50 or ResNet101, are used in the networks encoder.
 
 ![alt text](https://user-images.githubusercontent.com/67955222/99743883-8486fa00-2ace-11eb-990c-316873ff32cd.png)
 
-The bottleneck residual block and typical resnet block are further outlined below. The network block take pre-activated input to aid backpropogation though the residula connections as used in ResNetV2.
+The bottleneck residual block and typical residual blocks are further outlined below. The network blocks take pre-activated input to aid backpropogation though the residual connections as used in ResNetV2.
 
 ![alt text](https://user-images.githubusercontent.com/67955222/99744454-a7fe7480-2acf-11eb-9eef-83575bb5c8e8.png)
 
