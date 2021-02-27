@@ -1,7 +1,7 @@
 from glob import glob
 import tensorflow as tf
 from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint
-from Dr_Unet104_model_github import DR_Unet104
+from Dr_Unet104_model import DR_Unet104
 import numpy as np
 from tensorflow.keras import backend as K
 
